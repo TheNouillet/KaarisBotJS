@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<theme>
+		<name value="kaaris"/>
+		<audio name="puteuh" file="puteuh.mp3"/>
+		<audio name="puteuh2" file="puteuh2.mp3"/>
+		<audio name="27" file="27.mp3"/>
+	</theme>
+	<theme>
+		<name value="nozio"/>
+		<name value="nezioo"/>
+		<audio name="o" file="o.mp3"/>
+		<audio name="reup" file="reup.mp3"/>
+		<audio name="rire" file="rire.mp3"/>
+		<audio name="porte" file="porte.mp3"/>
+		<audio name="ntm" file="ntm.mp3"/>
+	</theme>
+	<theme>
+		<name value="renaud"/>
+		<audio name="debout" file="debout.mp3"/>
+		<audio name="banane" file="banane.mp3"/>
+	</theme>
+	<theme>
+		<name value="overwatch"/>
+		<name value="ow"/>
+		<audio name="skill" file="skill.mp3"/>
+		<audio name="12" file="12.mp3"/>
+	</theme>
+	<theme>
+		<name value="ok"/>
+		<name value="okay"/>
+		<audio name="ok" file="ok.mp3"/>
+	</theme>
+	<theme>
+		<name value="taymapute"/>
+		<audio name="vole" file="vole.mp3"/>
+	</theme>
+	<theme>
+		<name value="pasla"/>
+		<name value="tesou"/>
+		<audio name="pasla" file="pasla.mp3"/>
+	</theme>
+	<theme>
+		<name value="jojo"/>
+		<audio name="muda" file="muda.mp3"/>
+		<audio name="warudo" file="warudo.mp3"/>
+		<audio name="warudo2" file="warudo2.mp3"/>
+	</theme>
+	<theme>
+		<name value="vine"/>
+		<audio name="a" file="a.mp3"/>
+		<audio name="a2" file="a2.mp3"/>
+	</theme>
+	<theme>
+		<name value="mv"/>
+		<audio name="youh" file="youh.mp3"/>
+		<audio name="youh2" file="youh2.mp3"/>
+	</theme>
+	<theme>
+		<name value="zera"/>
+		<name value="zerator"/>
+		<name value="zrt"/>
+		<audio name="foudtz" file="foudtz.mp3"/>
+	</theme>
+	<theme>
+		<name value="kuelo"/>
+		<audio name="ojlehu" file="ojlehu.mp3"/>
+		<audio name="rire" file="kuelo_rire.mp3"/>
+	</theme>
+	<theme>
+		<name value="oboro"/>
+		<audio name="rire" file="oboro_rire.mp3"/>
+	</theme>
+	<theme>
+		<name value="saran"/>
+		<audio name="rire" file="saran.mp3"/>
+	</theme>
+	<theme>
+		<name value="nouillet"/>
+		<audio name="rire" file="nouillet_rire.mp3"/>
+		<audio name="rire2" file="tidus_rire.mp3"/>
+	</theme>
+	<theme>
+		<name value="risitas"/>
+		<audio name="issou" file="issou.mp3"/>
+		<audio name="issou2" file="issou2.mp3"/>
+		<audio name="rire" file="risitas_rire.mp3"/>
+	</theme>
+	<theme>
+		<name value="wtcut"/>
+		<name value="antoine"/>
+		<audio name="bite" file="bite.mp3"/>
+		<audio name="zik" file="zik.mp3"/>
+		<audio name="atuvu" file="atuvu.mp3"/>
+	</theme>
+	<theme>
+		<name value="enm"/>
+		<audio name="fishin" file="fishin.mp3"/>
+	</theme>
+	<theme>
+		<name value="succ"/>
+		<audio name="succ" file="succ.mp3"/>
+	</theme>
+</commands>
