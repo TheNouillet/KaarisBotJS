@@ -64,5 +64,8 @@ typings/
 # Audio assets
 *.mp3
 
+# Launcher
+launch.bat
+
 # End of https://www.gitignore.io/api/node
 
