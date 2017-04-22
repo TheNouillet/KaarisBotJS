@@ -62,7 +62,7 @@ typings/
 .env
 
 # Audio assets
-*.mp3
+audio/
 
 # Launcher
 launch.bat
