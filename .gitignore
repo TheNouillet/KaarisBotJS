@@ -66,6 +66,7 @@ typings/
 
 # Launcher
 launch.bat
+launch_dev.bat
 
 # End of https://www.gitignore.io/api/node
 
