@@ -22,7 +22,19 @@ module.exports = {
                     themeMap['aliases'].push(name.$.value);
                     //console.log("Ajout alias : " + name.$.value);
                 });
-                
+
+                // On récupère ensuite les utilisateurs autorisés
+                if(theme.allow && theme.allow.length > 0) {
+                    themeMap['restricted'] = true;
+                    themeMap['allowedIds'] = []
+                    theme.allow.forEach( (allow) => {
+                        themeMap['allowedIds'].push(allow.$.id);
+                    });
+                }
+                else {
+                    themeMap['restricted'] = false;
+                }
+
                 // On récupère ensuite les fichiers avec leurs commandes
                 theme.audio.forEach(function(audio) {
                     themeMap['commands'][audio.$.name] = audio.$.file;
