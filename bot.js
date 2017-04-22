@@ -1,10 +1,13 @@
 var Eris = require("eris");
+var inspect = require('eyes').inspector({maxLength: false});
 var parser = require("./parser");
 var helper = require("./help");
 
+const AudioListener = require("./lib/AudioListener");
+
 var botToken = process.argv[2];
 var specialCharacter = '!';
-var fileMap = parser.get();
+//var fileMap = parser.get();
 
 var bot = new Eris(botToken);
 
@@ -35,17 +38,32 @@ var getFileName = function(commandArray) {
 
 bot.on("ready", () => {
     console.log("Ready!");
+    bot.audioListener = new AudioListener(bot, parser, specialCharacter);
 });
 bot.on("messageCreate", (msg) => {
     var content = msg.content;
     if(content[0] == specialCharacter) {
         var commandArray = content.split(" ");
-        if(commandArray[0] == "!help") {
+        
+        if(commandArray[0] == specialCharacter + "set-jail") {
+            if(msg.member.permission.has("kickMembers")) {
+                
+            }
+        }
+        
+        if(commandArray[0] == specialCharacter + "jail") {
+            if(msg.member.permission.has("kickMembers")) {
+                
+            }
+        }
+        
+        if(commandArray[0] == specialCharacter + "help") {
             console.log("Catching help");
             bot.createMessage(msg.channel.id, helper.help(bot, fileMap, commandArray[1]));
         }
+        
         else {
-            if(!msg.channel.guild) { // Check if the message was sent in a guild
+            /*if(!msg.channel.guild) { // Check if the message was sent in a guild
                 //bot.createMessage(msg.channel.id, "This command can only be run in a server.");
                 return;
             }
@@ -67,7 +85,9 @@ bot.on("messageCreate", (msg) => {
                         }
                     });
                 });
-            }
+            }*/
+            console.log("Trying to notify ...");
+            bot.audioListener.notify({msg: msg, commandArray: commandArray});
         }
     }
 });

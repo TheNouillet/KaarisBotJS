@@ -1,8 +1,6 @@
 module.exports.help = function(bot, map, themeAlias) {
     var content = "";
-    console.log(themeAlias);
     if(themeAlias == undefined) {
-        console.log("Caught general help");
         content = "Here are the available themes :\n";
         
         map.forEach(function(theme) {
@@ -36,8 +34,5 @@ module.exports.help = function(bot, map, themeAlias) {
             content = "Theme \"" + themeAlias + "\" not found";
         }
     }
-    
-    console.log("The message content : ");
-    console.log(content);
     return content;
 }
