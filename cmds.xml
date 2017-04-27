@@ -101,4 +101,14 @@
         <name value="succ"/>
         <audio name="succ" file="audio/succ.mp3"/>
     </theme>
+    <theme>
+        <name value="rl"/>
+        <allow id="128974115850682368"/>
+        <allow id="129254647595663360"/>
+        <allow id="138709433244057600"/>
+        <allow id="192602511696199680"/>
+        <audio name="neo" file="audio/neo.mp3"/>
+        <audio name="arc" file="audio/arc.mp3"/>
+        <audio name="ludovic" file="audio/ludovic.mp3"/>
+    </theme>
 </commands>
